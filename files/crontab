@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red56\green185\blue199;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c25546\c77007\c82023;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 # Edit this file to introduce tasks to be run by cron.\cf3 \
+\cf2 # \cf3 \
+\cf2 # Each task to run has to be defined through a single line\cf3 \
+\cf2 # indicating with different fields when the task will be run\cf3 \
+\cf2 # and what command to run for the task\cf3 \
+\cf2 # \cf3 \
+\cf2 # To define the time you can provide concrete values for\cf3 \
+\cf2 # minute (m), hour (h), day of month (dom), month (mon),\cf3 \
+\cf2 # and day of week (dow) or use '*' in these fields (for 'any').\cf3 \
+\cf2 # \cf3 \
+\cf2 # Notice that tasks will be started based on the cron's system\cf3 \
+\cf2 # daemon's notion of time and timezones.\cf3 \
+\cf2 # \cf3 \
+\cf2 # Output of the crontab jobs (including errors) is sent through\cf3 \
+\cf2 # email to the user the crontab file belongs to (unless redirected).\cf3 \
+\cf2 # \cf3 \
+\cf2 # For example, you can run a backup of all your user accounts\cf3 \
+\cf2 # at 5 a.m every week with:\cf3 \
+\cf2 # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/\cf3 \
+\cf2 # \cf3 \
+\cf2 # For more information see the manual pages of crontab(5) and cron(8)\cf3 \
+\cf2 # \cf3 \
+\cf2 # m h  dom mon dow   command\cf3 \
+51 13 * * * /home/user1/bin/scripts/backup_script.sh >/dev/null 2>&1\
+\
+\
+\
+\
+\
+\
+\
+\
+}
